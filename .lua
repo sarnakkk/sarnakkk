@@ -11,13 +11,22 @@ pcall(function()
     local espupdatetime = 5; autoesp = false; local charmsesp = true
     local movementcounting = true
     
+    print("e to aimlock")
+    print("y to aimlock speed")
+    print("o to teambased")
+    print("l to esp loop")
+    print("t,f to esp")
+    print("j to btools")
+    print("[ and ] ballistics")
+    print("z to aimassist")
+    print("ponczek jak ci cos nie dziala to znaczy ze krnl to sciek")
     
     
     
     local mouselock = false
     local canaimat = true
     local lockaim = true; local lockangle = 5
-    local ver = "2.4"
+    local ver = "F9 keybinds"
     local cam = game.Workspace.CurrentCamera
     local BetterDeathCount = true
     local ballisticsboost = 0
@@ -207,7 +216,7 @@ pcall(function()
     Name.BackgroundTransparency = 1
     Name.Size = UDim2.new(0.838, 0, 1, 0)
     Name.Font = Enum.Font.Arial
-    Name.Text = "sarna gui"..ver
+    Name.Text = "sarna gui "..ver
     Name.TextColor3 = Color3.new(0, 0, 0)
     Name.TextScaled = true
     Name.TextSize = 14
