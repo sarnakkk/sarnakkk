@@ -216,7 +216,7 @@ pcall(function()
     Name.BackgroundTransparency = 1
     Name.Size = UDim2.new(0.838, 0, 1, 0)
     Name.Font = Enum.Font.Arial
-    Name.Text = "sarna gui "..ver
+    Name.Text = "LOCKER GUI "..ver
     Name.TextColor3 = Color3.new(0, 0, 0)
     Name.TextScaled = true
     Name.TextSize = 14
